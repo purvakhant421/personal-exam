@@ -1,0 +1,14 @@
+module.exports.Users = require("./user");
+module.exports.Product = require("./product");
+module.exports.Category = require("./category");
+module.exports.Bus = require("./bus");
+module.exports.Grocery = require("./grocery");
+module.exports.Hotel = require("./hotel");
+module.exports.Jewellery = require("./jewellery");
+module.exports.Movie = require("./movie");
+module.exports.Music = require("./music");
+module.exports.Pharmacy = require("./pharmacy");
+module.exports.School = require("./school");
+module.exports.Stationary = require("./stationary");
+module.exports.Travel = require("./travel");
+module.exports.Mobile = require("./mobile");
