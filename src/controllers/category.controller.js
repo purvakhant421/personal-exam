@@ -65,7 +65,7 @@ const deleteCategory = async (req, res) => {
 const updateCategory = async (req, res) => {
   try {
     const reqBody = req.body;
-    const categoryId = req.params.bucategoryId;
+    const categoryId = req.params.categoryId;
     const categoryExists = await categoryService.getCategoryById(categoryId);
     if (!categoryExists) {
       throw new Error("Category not found!");

@@ -26,7 +26,7 @@ const updateDetails = async (categoryId, reqBody) => {
   return Category.findByIdAndUpdate(categoryId, { $set: reqBody });
 };
 
-// Delete user
+// Delete category
 const deleteCategory = async (categoryId) => {
   return Category.findByIdAndDelete(categoryId);
 };
